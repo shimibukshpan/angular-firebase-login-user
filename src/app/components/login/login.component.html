@@ -1,0 +1,15 @@
+
+<form action="">
+    <div>
+        <label for="email">enter email</label>
+        <input type="email" name="email" id="email" #email>
+    </div>
+
+    <div>
+        <label for="password">enter password</label>
+        <input type="password" name="password" id="password" #password>
+    </div>
+
+    <button type="button" (click)="login(email.value, password.value)">login</button>
+</form>
+<app-deashboard *ngIf="islogedin"></app-deashboard>

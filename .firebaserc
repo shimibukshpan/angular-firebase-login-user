@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "test-2614d": {
+      "hosting": {
+        "test": [
+          "test-2614d"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "test-2614d"
+  }
+}
